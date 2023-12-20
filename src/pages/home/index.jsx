@@ -13,8 +13,8 @@ export default function Home() {
         recipeList.map((item) => <RecipeItem item={item} />)
       ) : (
         <div>
-          <p className="lg:text-4xl text-xl text-center text-black font-extrabold">
-            Nothing to show. Please search something
+          <p className="lg:text-4xl text-xl text-center text-black">
+            Search for the recipe of your favourite dish, lets get Cooking!
           </p>
         </div>
       )}
